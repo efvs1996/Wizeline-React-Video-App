@@ -1,12 +1,15 @@
-import React from 'react';
-import { Navbar, HamburguerButton, SearchInput } from './HeaderTags.style';
+import React, {useState} from 'react';
+import { Navbar, HamburguerButton, SearchInput } from './styledTags/Header.style';
+import Toggle from './Toggle';
 
-const Header = () => {
+const Header = ({themeToggler}) => {
+
     return(
         <>
             <Navbar>
                <HamburguerButton>!!!</HamburguerButton>
-               <SearchInput placeholder="wizeline"/>
+               <SearchInput placeholder="search on wizeline"/>
+               <Toggle onChange={() => themeToggler()}/>
             </Navbar>
         </>
     )
