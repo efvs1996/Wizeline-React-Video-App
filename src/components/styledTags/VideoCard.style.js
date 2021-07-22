@@ -7,7 +7,7 @@ export const Card = styled.a`
     padding: 20px;
     border: 12px;
     border-radius: 10px;
-    box-shadow: 0 0 40px 2px rgba(0, 0, 0, 0.16);
+    box-shadow: 0 0 40px 3px rgba(0, 0, 0, 0.16);
     flex-basis: 300px;
     min-width: 0;
     transition: all .3s;
