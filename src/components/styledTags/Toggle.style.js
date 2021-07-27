@@ -1,16 +1,18 @@
 import styled from 'styled-components';
 
-export const Label = styled.label`
-    color: ${props => props.theme.text};
-    padding: 10px 0;
-    margin: 11px 30px 10px 4px;
-`
-
 export const InputWrapper = styled.label`
     padding: 10px;
     margin: 10px 0 10px 0;
     margin-left: auto;
 `
+
+export const Label = styled.label`
+    color: ${props => props.theme.text};
+    padding: 10px 0;
+    margin: 11px 30px 10px 4px;
+    font-weight: bolder;
+`
+
 export const Input = styled.input`
     position: absolute;
     left: -9999px;

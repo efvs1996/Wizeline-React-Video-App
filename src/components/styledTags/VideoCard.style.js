@@ -32,4 +32,5 @@ export const PreviewDescription = styled.span`
     font-size: 14px;
     word-break: break-all;
     color: ${props => props.theme.text};
+    font-weight: bold;
 `

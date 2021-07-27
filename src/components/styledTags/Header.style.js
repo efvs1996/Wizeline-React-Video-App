@@ -22,6 +22,8 @@ export const HamburguerButton = styled.button`
     }
 `
 export const SearchInput = styled.input`
+    color: ${props => props.theme.text};
+    font-weight: bolder;
     font-size: 16px;
     padding: 10px;
     margin: 15px 20px;
