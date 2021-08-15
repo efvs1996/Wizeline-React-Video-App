@@ -2,8 +2,8 @@ import React, {useState} from 'react';
 import { ThemeProvider} from 'styled-components';
 import {lightTheme, darkTheme} from './config/theme';
 
-import Content from './components/Content';
-import Header from './components/Header';
+import Content from './components/content/Content';
+import Header from './components/header/Header';
 
 
 const App = () => {
@@ -12,12 +12,10 @@ const App = () => {
   const themeToggler = () => theme === 'light' ? setTheme('dark') : setTheme('light')
   
   return (
-    <>
       <ThemeProvider theme={theme === 'light' ? lightTheme : darkTheme}>
         <Header themeToggler={themeToggler}/>
         <Content/>
       </ThemeProvider>
-    </>
   );
 }
 

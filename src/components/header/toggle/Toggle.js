@@ -1,5 +1,5 @@
 import React from 'react';
-import { InputWrapper, Input, Slider, Label } from './styledTags/Toggle.style';
+import { InputWrapper, Input, Slider, Label } from './Toggle.style';
 
 const Toggle = ({onChange}) => (
     <>

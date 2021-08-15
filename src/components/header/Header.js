@@ -1,6 +1,6 @@
-import React, {useState} from 'react';
-import { Navbar, HamburguerButton, SearchInput } from './styledTags/Header.style';
-import Toggle from './Toggle';
+import React from 'react';
+import { Navbar, HamburguerButton, SearchInput } from './Header.style';
+import Toggle from './toggle/Toggle';
 
 const Header = ({themeToggler}) => {
 

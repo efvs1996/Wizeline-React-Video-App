@@ -1,6 +1,6 @@
 import React, {useState, useEffect} from 'react';
-import {Background, Tittle, CardsArea } from './styledTags/Content.style';
-import VideoCard from './VideoCard';
+import {Background, Tittle, CardsArea } from './Content.style';
+import VideoCard from './videocard/VideoCard';
 
 
 const Content = () => {

@@ -1,5 +1,5 @@
 import React from 'react';
-import {Card, PreviewImage, PreviewName, PreviewDescription} from './styledTags/VideoCard.style'
+import {Card, PreviewImage, PreviewName, PreviewDescription} from './VideoCard.style'
 
 const VideoCard = ({title, description, image}) => {
     
